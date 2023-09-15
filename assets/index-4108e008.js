@@ -151,10 +151,8 @@ Error generating stack: `+i.message+`
   align-items: center;
   justify-content: center;
   color: #efede8;
-  font-family: Roboto;
+  font-family: 'RobotoBold';
   font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 32px;
 `,Fv=D.button`
   width: 24px;
@@ -198,10 +196,8 @@ Error generating stack: `+i.message+`
   margin-bottom: 16px;
 `,Xp=D.h3`
   color: rgba(239, 237, 232, 0.5);
-  font-family: Roboto;
+  font-family: 'RobotoMedium';
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 18px;
 `,Zp=D.button`
   display: flex;
@@ -211,10 +207,8 @@ Error generating stack: `+i.message+`
   padding: 0;
   background-color: transparent;
   color: #e6533c;
-  font-family: Roboto;
+  font-family: 'RobotoMedium';
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
   line-height: 24px;
 `,Jp=D.p`
   position: absolute;
@@ -223,10 +217,8 @@ Error generating stack: `+i.message+`
   transform: translate(-50%, -50%);
 
   color: rgba(239, 237, 232, 0.3);
-  font-family: Roboto;
+  font-family: 'RobotoRegular';
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
 `,Xv=()=>S.jsxs(Yp,{children:[S.jsxs(Gp,{children:[S.jsx(Xp,{children:"Products"}),S.jsxs(Zp,{children:["Add product",S.jsx(Yt,{symbolId:"icon-arrow-right",width:"16",height:"16"})]})]}),S.jsx(Jp,{children:"Not found products"})]}),Zv=()=>S.jsxs(Yp,{children:[S.jsxs(Gp,{children:[S.jsx(Xp,{children:"Exercises"}),S.jsxs(Zp,{children:["Add product",S.jsx(Yt,{symbolId:"icon-arrow-right",width:"16",height:"16"})]})]}),S.jsx(Jp,{children:"Not found products"})]}),Jv=D.div`
   position: relative;
@@ -258,16 +250,13 @@ Error generating stack: `+i.message+`
   font-feature-settings:
     'clig' off,
     'liga' off;
-  font-family: Roboto;
+  font-family: 'RobotoBold', sans-serif;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 18px;
 `,ny=D.p`
   color: #efede8;
-  font-family: Roboto;
+  font-family: 'RobotoBold';
   font-size: 24px;
-  font-weight: 700;
   line-height: 32px;
   margin-top: auto;
 `,qp=({color:e,iconId:t})=>S.jsxs(bv,{color:e,children:[S.jsxs(ey,{children:[S.jsx(Yt,{symbolId:t,width:"20",height:"20"}),S.jsx(ty,{children:"Daily calorie intake"})]}),S.jsx(ny,{children:"2200"})]});qp.propTypes={color:We.string.isRequired,iconId:We.string.isRequired};const ry=D.div`
@@ -377,7 +366,7 @@ h6 {
 }
 
 h2{
-    font-family: 'RobotoBold', sans-serif;
+        font-family: 'RobotoBold';
     color: #EFEDE8;
 
 }
