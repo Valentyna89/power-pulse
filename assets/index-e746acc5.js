@@ -373,8 +373,13 @@ img {
   height: auto;
 }
 
+input, textarea, select, button {
+  font: inherit;
+}
+
 button {
     cursor: pointer;
     border: none;
+
   }
 `;Ul.createRoot(document.getElementById("root")).render(k.jsx(be.StrictMode,{children:k.jsxs(gm,{basename:"/power-pulse",children:[k.jsx(Sy,{}),k.jsx(vy,{})]})}));
